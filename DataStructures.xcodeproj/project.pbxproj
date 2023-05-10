@@ -15,6 +15,8 @@
 		6CC1883C2A0B711200104B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC1883A2A0B711200104B18 /* LaunchScreen.storyboard */; };
 		6CC188602A0B719400104B18 /* BinaryTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC1885F2A0B719400104B18 /* BinaryTreeTest.swift */; };
 		6CC188622A0B71AF00104B18 /* BinaryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC188612A0B71AF00104B18 /* BinaryNode.swift */; };
+		6CC188652A0B7F8D00104B18 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC188642A0B7F8D00104B18 /* Stack.swift */; };
+		6CC188672A0B833400104B18 /* StackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC188662A0B833400104B18 /* StackTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		6CC188422A0B711300104B18 /* DataStructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC1885F2A0B719400104B18 /* BinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTest.swift; sourceTree = "<group>"; };
 		6CC188612A0B71AF00104B18 /* BinaryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNode.swift; sourceTree = "<group>"; };
+		6CC188642A0B7F8D00104B18 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		6CC188662A0B833400104B18 /* StackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 			children = (
 				6CC188632A0B739400104B18 /* UI */,
 				6CC188612A0B71AF00104B18 /* BinaryNode.swift */,
+				6CC188642A0B7F8D00104B18 /* Stack.swift */,
 				6CC1883D2A0B711200104B18 /* Info.plist */,
 			);
 			path = DataStructures;
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				6CC1885F2A0B719400104B18 /* BinaryTreeTest.swift */,
+				6CC188662A0B833400104B18 /* StackTest.swift */,
 			);
 			path = DataStructuresTests;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CC188342A0B710D00104B18 /* ViewController.swift in Sources */,
+				6CC188652A0B7F8D00104B18 /* Stack.swift in Sources */,
 				6CC188302A0B710D00104B18 /* AppDelegate.swift in Sources */,
 				6CC188622A0B71AF00104B18 /* BinaryNode.swift in Sources */,
 				6CC188322A0B710D00104B18 /* SceneDelegate.swift in Sources */,
@@ -220,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC188672A0B833400104B18 /* StackTest.swift in Sources */,
 				6CC188602A0B719400104B18 /* BinaryTreeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
